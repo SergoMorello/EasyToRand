@@ -1,0 +1,74 @@
+#define MANIFEST 24
+#define IDR_XPMANIFEST 1
+IDR_XPMANIFEST MANIFEST "main.manifest"
+
+LANGUAGE 25, 1
+#pragma code_page(1251)
+1           ICON         "ico.ico"
+
+//
+// Version Information resources
+//
+1  VERSIONINFO
+ FILEVERSION    0,0,0,1
+ PRODUCTVERSION 0,0,0,1
+ FILEFLAGSMASK  0x3fL
+ FILEFLAGS      0x0L
+ FILEOS         WIN32
+ //FILETYPE       VFT_APP
+ //FILESUBTYPE    0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            //VALUE "CompanyName",      "\0"
+            VALUE "FileDescription",  "Easy fast app, WinApi / c++\0"
+            //VALUE "FileVersion",      "1.001\0"
+            //VALUE "InternalName",     "\0"
+            VALUE "LegalCopyright",   "Copyright \xA9 2019\0"
+            //VALUE "LegalTrademarks",  "\0"
+            VALUE "OriginalFilename", "EasyToRand.exe\0"
+            VALUE "ProductName",      "EasyToRand()\0"
+            VALUE "ProductVersion",   "0.0.1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 0x0419
+    END
+END
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE  
+
+
+2 TEXTINCLUDE  
+
+
+3 TEXTINCLUDE  
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Создано из ресурса TEXTINCLUDE 3.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // не APSTUDIO_INVOKED
+
